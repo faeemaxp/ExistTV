@@ -244,8 +244,8 @@ export function Player({ url }: PlayerProps) {
                     <div className="flex-1" />
 
                     {/* Live Badge */}
-                    <div className="flex items-center gap-1.5 px-2 py-1 rounded text-xs font-medium text-red-400">
-                        <span className="w-1.5 h-1.5 rounded-full bg-red-500 animate-pulse" />
+                    <div className="flex items-center gap-2 px-3 py-1 rounded-full text-[10px] font-bold tracking-wider text-white bg-red-600/80 backdrop-blur-sm border border-red-500/50">
+                        <span className="w-1.5 h-1.5 rounded-full bg-white animate-pulse" />
                         LIVE
                     </div>
 

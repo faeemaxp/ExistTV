@@ -9,6 +9,7 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@types/three": "^0.183.1",
     "clsx": "^2.1.1",
     "country-list": "^2.4.1",
     "hls.js": "^1.6.15",
@@ -17,7 +18,8 @@
     "node-emoji": "^2.2.0",
     "react": "19.2.0",
     "react-dom": "19.2.0",
-    "tailwind-merge": "^3.4.0"
+    "tailwind-merge": "^3.4.0",
+    "three": "^0.183.2"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
