@@ -236,8 +236,7 @@ export function Player({ url }: PlayerProps) {
                             step="0.1"
                             value={isMuted ? 0 : volume}
                             onChange={handleVolumeChange}
-                            className="w-16 h-1 bg-white/30 rounded-full appearance-none cursor-pointer hidden sm:block"
-                            style={{ accentColor: '#fff' }}
+                            className="w-16 h-1 bg-white/30 rounded-full appearance-none cursor-pointer hidden sm:block accent-white"
                         />
                     </div>
 

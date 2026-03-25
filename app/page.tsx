@@ -93,7 +93,6 @@ export default function LandingPage() {
           <Link
             href="/watch"
             className="px-4 py-2 bg-fg text-sm font-medium rounded-full hover:opacity-90 transition-fast flex items-center gap-2 btn-press hover-lift"
-            style={{ color: 'var(--bg)' }}
           >
             Watch <ArrowRight className="h-4 w-4" />
           </Link>
@@ -122,7 +121,6 @@ export default function LandingPage() {
             <Link
               href="/watch"
               className="group inline-flex items-center gap-3 px-8 py-4 bg-fg text-lg font-semibold rounded-full hover:opacity-90 transition-fast hover-lift btn-press animate-glow"
-              style={{ color: 'var(--bg)' }}
             >
               <Play className="h-5 w-5 fill-current transition-transform group-hover:scale-110" />
               Start watching

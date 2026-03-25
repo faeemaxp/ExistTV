@@ -19,7 +19,7 @@ export default function HowItWorksPage() {
                 </Link>
                 <Link
                     href="/watch"
-                    className="px-4 py-2 bg-fg text-bg text-sm font-medium rounded-full hover:opacity-90 transition-fast"
+                    className="px-4 py-2 bg-fg text-sm font-medium rounded-full hover:opacity-90 transition-fast"
                 >
                     Watch Now
                 </Link>
@@ -214,7 +214,7 @@ export default function HowItWorksPage() {
                 </p>
                 <Link
                     href="/watch"
-                    className="inline-flex items-center gap-3 px-8 py-4 bg-fg text-bg text-lg font-semibold rounded-full hover:opacity-90 transition-fast hover-lift"
+                    className="inline-flex items-center gap-3 px-8 py-4 bg-fg text-lg font-semibold rounded-full hover:opacity-90 transition-fast hover-lift"
                 >
                     Start Watching
                     <ArrowRight className="h-5 w-5" />

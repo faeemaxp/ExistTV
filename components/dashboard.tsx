@@ -154,7 +154,7 @@ export function Dashboard({ initialChannels }: DashboardProps) {
                                     </div>
                                     <button 
                                         onClick={() => setSidebarOpen(true)}
-                                        className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-fg text-bg text-sm font-bold hover:opacity-90 transition-smooth md:hidden"
+                                        className="inline-flex items-center gap-2 px-6 py-2.5 rounded-full bg-fg text-sm font-bold hover:opacity-90 transition-smooth md:hidden"
                                     >
                                         Open Sidebar
                                     </button>

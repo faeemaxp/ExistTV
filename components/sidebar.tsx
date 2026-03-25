@@ -148,7 +148,7 @@ export function Sidebar({
                         onClick={() => setShowAllCategories(!showAllCategories)}
                         className={cn(
                             "px-3 py-1 rounded-lg text-[10px] font-bold uppercase tracking-wider transition-smooth border flex items-center gap-1.5",
-                            showAllCategories ? "bg-fg text-bg border-fg" : "bg-surface/50 text-muted hover:text-fg border-border"
+                            showAllCategories ? "bg-fg border-fg" : "bg-surface/50 text-muted hover:text-fg border-border"
                         )}
                     >
                         View All <ChevronDown className={cn("h-3 w-3 transition-transform", showAllCategories && "rotate-180")} />
@@ -188,7 +188,7 @@ export function Sidebar({
                             className={cn(
                                 "px-4 py-2 rounded-full text-xs font-semibold whitespace-nowrap transition-smooth border",
                                 selectedCategory === cat.name
-                                    ? "bg-fg text-bg border-fg"
+                                    ? "bg-fg border-fg"
                                     : "bg-surface/50 text-muted hover:text-fg hover:border-fg/30 border-border"
                             )}
                         >
@@ -257,7 +257,7 @@ export function Sidebar({
                         className={cn(
                             "flex-1 px-3 py-2.5 rounded-xl text-xs font-semibold transition-smooth flex items-center justify-center gap-2 border",
                             showFavorites
-                                ? "bg-fg text-bg border-fg"
+                                ? "bg-fg border-fg"
                                 : "bg-surface/50 text-muted hover:text-fg hover:border-fg/30 border-border"
                         )}
                     >
